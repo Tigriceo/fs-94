@@ -1,0 +1,89 @@
+button {
+  font-family: inherit;
+}
+
+.test {
+  background-color: red;
+  color: #fff;
+}
+
+.div1 {
+  margin-bottom: 30px;
+}
+.div2 {
+  margin-top: 10px;
+}
+
+/* .description h1,
+.description h2,
+.description h3,
+.description h4,
+.description h5,
+.description h6,
+.description p,
+.description ul {
+  margin: 15px 0;
+} */
+
+.description > * {
+  margin: 15px 0;
+}
+.parent + .next-el {
+  background-color: red;
+  color: #fff;
+}
+
+#test {
+  color: red;
+}
+p.parent {
+  color: yellow !important;
+}
+p.parent--v2 {
+  color: fuchsia !important;
+}
+
+body section p.parent.parent--v2 {
+  color: rgb(0, 255, 145);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+li:focus {
+  background-color: green;
+}
+.card:hover a,
+.card:focus a {
+  color: red;
+}
+
+.image {
+  width: 360px;
+  height: 300px;
+  background: url(../images/img.jpg);
+}
+.test-ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.test-ul li {
+  background: aqua;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.test-ul li img {
+  height: 100%;
+  object-fit: cover;
+}
